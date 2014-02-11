@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="593.03003"
+   height="483.96878"
    id="svg3583"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 22">
+   sodipodi:docname="key.svg">
   <defs
      id="defs3585">
     <filter
@@ -31,7 +31,8 @@
          blend="normal"
          id="feBlend5090"
          in2="SourceGraphic"
-         result="fbSourceGraphic" />
+         result="fbSourceGraphic"
+         mode="normal" />
       <feColorMatrix
          result="fbSourceGraphicAlpha"
          in="fbSourceGraphic"
@@ -59,7 +60,8 @@
          result="result7"
          scale="5"
          in="result0"
-         xChannelSelector="R" />
+         xChannelSelector="R"
+         yChannelSelector="A" />
       <feComposite
          id="feComposite5248"
          in2="result1"
@@ -72,7 +74,10 @@
          k3="3"
          in="result0"
          operator="arithmetic"
-         result="result9" />
+         result="result9"
+         k1="0"
+         k2="0"
+         k4="0" />
       <feBlend
          id="feBlend5252"
          in2="result2"
@@ -111,7 +116,9 @@
          result="fbSourceGraphic"
          operator="arithmetic"
          k2="1"
-         k3="0.7" />
+         k3="0.7"
+         k1="0"
+         k4="0" />
       <feColorMatrix
          result="fbSourceGraphicAlpha"
          in="fbSourceGraphic"
@@ -123,8 +130,7 @@
          numOctaves="3"
          baseFrequency="1"
          seed="0"
-         result="result0"
-         in="fbSourceGraphic" />
+         result="result0" />
       <feColorMatrix
          id="feColorMatrix5302"
          result="result4"
@@ -138,7 +144,8 @@
          k1="1.25"
          k2="0.5"
          k3="0.5"
-         result="result2" />
+         result="result2"
+         k4="0" />
       <feBlend
          id="feBlend5306"
          in2="fbSourceGraphic"
@@ -182,7 +189,8 @@
          k1="1.25"
          k2="0.5"
          k3="0.5"
-         result="result2" />
+         result="result2"
+         k4="0" />
       <feBlend
          id="feBlend5294"
          in2="SourceGraphic"
@@ -226,7 +234,8 @@
          k1="1.25"
          k2="0.5"
          k3="0.5"
-         result="result2" />
+         result="result2"
+         k4="0" />
       <feBlend
          id="feBlend5318"
          in2="SourceGraphic"
@@ -294,8 +303,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="94.285714"
-     inkscape:cy="520"
+     inkscape:cx="31.372776"
+     inkscape:cy="9.1378551"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -303,7 +312,11 @@
      inkscape:window-height="1027"
      inkscape:window-x="65"
      inkscape:window-y="24"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10" />
   <metadata
      id="metadata3588">
     <rdf:RDF>
@@ -312,14 +325,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-62.912938,-57.53125)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot3019"
@@ -360,7 +374,7 @@
          height="250"
          width="201.42857"
          id="rect2985-0"
-         style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;" />
+         style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <text
          sodipodi:linespacing="125%"
          id="text5274"
