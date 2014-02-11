@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="step1.svg">
+   sodipodi:docname="step1.svg"
+   inkscape:export-filename="/home/christian/apps/solar/images/step1.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="-201.77232"
-     inkscape:cy="-48.916739"
+     inkscape:cx="0.25818966"
+     inkscape:cy="72.301567"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -316,17 +319,6 @@
          id="flowPara3025">Poly</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="136.37059"
-       y="263.43304"
-       id="text3027"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3029"
-         x="136.37059"
-         y="263.43304">Polycarb </tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="149.50258"
        y="230.09801"
        id="text3031"
@@ -334,7 +326,7 @@
          sodipodi:role="line"
          id="tspan3033"
          x="149.50258"
-         y="230.09801"> </tspan></text>
+         y="230.09801" /></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -346,5 +338,17 @@
          id="tspan3037"
          x="461.63971"
          y="281.61578">EVA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="63.63961"
+       y="138.61877"
+       id="text3029"
+       sodipodi:linespacing="125%"
+       transform="translate(80.428574,111.00503)"><tspan
+         sodipodi:role="line"
+         x="63.63961"
+         y="138.61877"
+         id="tspan3034">Polycarb</tspan></text>
   </g>
 </svg>
