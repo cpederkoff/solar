@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="593.03003"
-   height="483.96878"
+   width="557.02576"
+   height="461.70193"
    id="svg3583"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -297,6 +297,51 @@
          operator="in"
          result="result3" />
     </filter>
+    <filter
+       id="filter3482"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       inkscape:label="Film grain"
+       inkscape:menu="Image effects"
+       inkscape:menu-tooltip="Adds a small scale graininess"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence3484"
+         type="fractalNoise"
+         numOctaves="3"
+         baseFrequency="1"
+         seed="0"
+         result="result0" />
+      <feColorMatrix
+         id="feColorMatrix3486"
+         result="result4"
+         values="0"
+         type="saturate" />
+      <feComposite
+         id="feComposite3488"
+         in2="result4"
+         in="SourceGraphic"
+         operator="arithmetic"
+         k1="1.25"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         k4="0" />
+      <feBlend
+         id="feBlend3490"
+         in2="SourceGraphic"
+         result="result5"
+         mode="normal"
+         in="result2" />
+      <feComposite
+         id="feComposite3492"
+         in2="SourceGraphic"
+         in="result5"
+         operator="in"
+         result="result3" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -305,11 +350,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="31.372776"
-     inkscape:cy="9.1378551"
+     inkscape:zoom="1.4"
+     inkscape:cx="247.43217"
+     inkscape:cy="284.85214"
      inkscape:document-units="px"
-     inkscape:current-layer="g5385"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1853"
      inkscape:window-height="1027"
@@ -328,7 +373,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -336,7 +381,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-62.912938,-57.53125)">
+     transform="translate(-98.912933,-69.798088)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot3019"
@@ -369,113 +414,121 @@
            height="57.142857"
            x="158.57143"
            y="132.36218" /></flowRegion><flowPara
-         id="flowPara5272" /></flowRoot>    <g
-       id="g5385">
-      <rect
-         y="74.260513"
-         x="141.25"
-         height="250"
-         width="201.42857"
-         id="rect2985-0"
-         style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text5274"
-         y="176.64789"
-         x="244.97629"
-         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="176.64789"
-           x="244.97629"
-           id="tspan5276"
-           sodipodi:role="line">smooth</tspan><tspan
-           id="tspan5278"
-           y="226.64789"
-           x="244.97629"
-           sodipodi:role="line">side</tspan></text>
-    </g>
-    <g
-       id="g5391">
-      <rect
-         y="73.076469"
-         x="393.57144"
-         height="250"
-         width="201.42857"
-         id="rect2985-0-7"
-         style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter5310-8)" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text5280"
-         y="173.79076"
-         x="497.73438"
-         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="173.79076"
-           x="497.73438"
-           id="tspan5282"
-           sodipodi:role="line">bumpy</tspan><tspan
-           id="tspan5284"
-           y="223.79076"
-           x="497.73438"
-           sodipodi:role="line">side</tspan></text>
-    </g>
-    <g
-       id="g5372"
-       transform="translate(-72.857143,-152.85714)">
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-408.32703"
-         x="560.172"
-         height="256.57874"
-         width="24.243662"
-         id="rect4041-9"
-         style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text5358"
-         y="633.79077"
-         x="277.05914"
-         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="633.79077"
-           x="277.05914"
-           id="tspan5360"
-           sodipodi:role="line">non-adhesive</tspan><tspan
-           id="tspan5362"
-           y="683.79077"
-           x="277.05914"
-           sodipodi:role="line">side</tspan><tspan
-           id="tspan5364"
-           y="733.79077"
-           x="277.05914"
-           sodipodi:role="line" /></text>
-    </g>
-    <g
-       id="g5379"
-       transform="translate(-20,-10)">
-      <rect
-         transform="matrix(0,1,-1,0,38.911734,788.27529)"
-         y="-626.52698"
-         x="-376.18451"
-         height="256.57874"
-         width="24.243662"
-         id="rect4041"
-         style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter5286)" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text5366"
-         y="480.93362"
-         x="550.78687"
-         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"><tspan
-           y="480.93362"
-           x="550.78687"
-           id="tspan5368"
-           sodipodi:role="line">adhesive</tspan><tspan
-           id="tspan5370"
-           y="530.93359"
-           x="550.78687"
-           sodipodi:role="line">side</tspan></text>
-    </g>
+         id="flowPara5272" /></flowRoot>    <rect
+       style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2.28532481;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2985-0-6"
+       width="217.39972"
+       height="302.43909"
+       x="136.44571"
+       y="83.369324" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="246.97629"
+       y="222.88741"
+       id="text5274"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5276"
+         x="246.97629"
+         y="222.88741">smooth</tspan><tspan
+         sodipodi:role="line"
+         x="246.97629"
+         y="272.88739"
+         id="tspan5278">side</tspan></text>
+    <rect
+       style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2.28532481;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3482)"
+       id="rect2985-6-5"
+       width="217.39972"
+       height="302.43909"
+       x="406.87427"
+       y="80.94075" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="517.73438"
+       y="222.84262"
+       id="text5280"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5282"
+         x="517.73438"
+         y="222.84262">bumpy</tspan><tspan
+         sodipodi:role="line"
+         x="517.73438"
+         y="272.84262"
+         id="tspan5284">side</tspan></text>
+    <rect
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4041-9"
+       width="24.243662"
+       height="256.57874"
+       x="401.75638"
+       y="-371.46988"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="240.202"
+       y="470.93362"
+       id="text5358"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5360"
+         x="240.202"
+         y="470.93362">non-adhesive</tspan><tspan
+         sodipodi:role="line"
+         x="240.202"
+         y="520.93359"
+         id="tspan5362">side</tspan><tspan
+         sodipodi:role="line"
+         x="240.202"
+         y="570.93359"
+         id="tspan5364" /></text>
+    <rect
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter5286)"
+       id="rect4041"
+       width="24.243662"
+       height="256.57874"
+       x="-376.18451"
+       y="-626.52698"
+       transform="matrix(0,1,-1,0,18.911734,777.94088)" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="518.78687"
+       y="470.93362"
+       id="text5366"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5368"
+         x="518.78687"
+         y="470.93362">adhesive</tspan><tspan
+         sodipodi:role="line"
+         x="518.78687"
+         y="520.93359"
+         id="tspan5370">side</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3019-9"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-274.91128,-98.495773)"><flowRegion
+         id="flowRegion3021-1"><rect
+           id="rect3023-6"
+           width="124.24876"
+           height="44.446712"
+           x="145.46196"
+           y="231.10815" /></flowRegion><flowPara
+         id="flowPara3025-5">Poly</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-125.4087"
+       y="131.60223"
+       id="text3031-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3033-4"
+         x="-125.4087"
+         y="131.60223" /></text>
   </g>
 </svg>
