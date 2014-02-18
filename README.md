@@ -20,9 +20,9 @@ Features of this design
 
 Getting started 
 --------- 
-Please refer to [the wiki](../wiki) for instructions
+Please refer to [the wiki](../../wiki) for instructions
 
 Jumping right in
 ---------
- - [bill of materials](../wiki/Materials)
- - [plans for construction](../wiki/Assembly-Instructions)
+ - [bill of materials](../../wiki/Materials)
+ - [plans for construction](../../wiki/Assembly-Instructions)
