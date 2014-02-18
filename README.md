@@ -20,7 +20,7 @@ Features of this design
 
 Getting started 
 --------- 
-Please refer to [the wiki](../../wiki) for instructions
+Please refer to [the wiki](../../wiki/General-Info) for instructions
 
 Jumping right in
 ---------
