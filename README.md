@@ -26,3 +26,7 @@ Jumping right in
 ---------
  - [bill of materials](../../wiki/Materials)
  - [plans for construction](../../wiki/Assembly-Instructions)
+
+Credits
+---------
+Many thanks to [solar pocket factory's instructable](http://www.instructables.com/id/Make-rad-solar-panels-with-a-sweet-desktop-laminat/?ALLSTEPS) on making solar cells with a laminator. 
