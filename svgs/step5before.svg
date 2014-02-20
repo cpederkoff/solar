@@ -10,11 +10,11 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="324.7244"
-   height="242.07489"
+   height="280.28763"
    id="svg5270"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="step5.svg">
+   sodipodi:docname="step5before.svg">
   <defs
      id="defs5272">
     <filter
@@ -664,7 +664,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
      inkscape:cx="222.36888"
-     inkscape:cy="67.977023"
+     inkscape:cy="106.18976"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -685,7 +685,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="" />
       </cc:Work>
