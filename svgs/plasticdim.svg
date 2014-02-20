@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="319.23315"
+   height="404.27478"
+   id="svg9574"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="New document 3">
+  <defs
+     id="defs9576">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="Arrow1Lstart">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8863"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8866"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="marker9550">
+      <path
+         inkscape:connector-curvature="0"
+         id="path9552"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="marker9554">
+      <path
+         inkscape:connector-curvature="0"
+         id="path9556"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z" />
+    </marker>
+    <path
+       id="path8924"
+       d="M 63.78967,121.35448 V 423.79354"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+    <path
+       id="path8918"
+       d="M 113.78967,71.35448 H 331.18939"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="159.15461"
+     inkscape:cy="202.59822"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="472"
+     inkscape:window-height="383"
+     inkscape:window-x="528"
+     inkscape:window-y="187"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata9579">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-215.84539,-330.6856)">
+    <g
+       transform="translate(202.06414,309.34185)"
+       id="g9523">
+      <path
+         id="path9561"
+         d="M 113.78967,71.35448 H 331.18939"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+      <path
+         id="path8920"
+         d="M 113.78967,21.35448 V 423.79354"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.5" />
+      <path
+         id="path8922"
+         d="M 331.18939,21.35448 V 423.79354"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.5" />
+      <path
+         id="path9565"
+         d="M 63.78967,121.35448 V 423.79354"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)" />
+      <path
+         id="path8926"
+         d="M 13.78967,121.35448 H 331.18939"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.5" />
+      <path
+         id="path8928"
+         d="M 13.78967,423.79354 H 331.18939"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.5" />
+      <path
+         style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:2.28532457;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 331.18939,121.35448 0,302.43905 -217.39972,0 0,-302.43905 z"
+         id="rect2985"
+         inkscape:connector-curvature="0" />
+      <text
+         transform="matrix(-1,0,0,-1,129.42017,544.62067)"
+         x="0"
+         y="0"
+         id="text9288"
+         style="fill:none;stroke:#000000">
+        <textPath
+           style="font-size:30px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+           xlink:href="#path8924"
+           startOffset="50%"
+           dy="-20"
+           id="textPath9290">86 mm</textPath>
+      </text>
+      <text
+         x="0"
+         y="0"
+         id="text9292"
+         style="fill:none;stroke:#000000">
+        <textPath
+           style="font-size:30px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+           xlink:href="#path8918"
+           startOffset="50%"
+           dy="-20"
+           id="textPath9294">62 mm</textPath>
+      </text>
+    </g>
+  </g>
+</svg>
