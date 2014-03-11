@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="289.29047"
-   height="363.51797"
+   width="269.29047"
+   height="338.108"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
@@ -137,7 +137,8 @@
          k1="1.25"
          k2="0.5"
          k3="0.5"
-         result="result2" />
+         result="result2"
+         k4="0" />
       <feBlend
          id="feBlend5599"
          in2="SourceGraphic"
@@ -160,8 +161,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="43.712237"
-     inkscape:cy="170.48081"
+     inkscape:cx="33.712237"
+     inkscape:cy="158.97996"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -178,7 +179,7 @@
      inkscape:guide-bbox="true">
     <sodipodi:guide
        orientation="0,1"
-       position="-15.657364,393.45441"
+       position="-25.657364,381.95356"
        id="guide8889" />
   </sodipodi:namedview>
   <metadata
@@ -197,7 +198,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-79.859193,-339.32501)">
+     transform="translate(-89.859193,-353.23413)">
     <rect
        style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.98906618;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter5591)"
        id="rect4041-9-4-4"

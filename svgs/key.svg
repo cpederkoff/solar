@@ -9,7 +9,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="617.14996"
+   width="578.56519"
    height="455.87518"
    id="svg3583"
    version="1.1"
@@ -342,6 +342,51 @@
          operator="in"
          result="result3" />
     </filter>
+    <filter
+       id="filter5286-1"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       inkscape:label="Film grain"
+       inkscape:menu="Image effects"
+       inkscape:menu-tooltip="Adds a small scale graininess"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence5288-1"
+         type="fractalNoise"
+         numOctaves="3"
+         baseFrequency="1"
+         seed="0"
+         result="result0" />
+      <feColorMatrix
+         id="feColorMatrix5290-4"
+         result="result4"
+         values="0"
+         type="saturate" />
+      <feComposite
+         id="feComposite5292-2"
+         in2="result4"
+         in="SourceGraphic"
+         operator="arithmetic"
+         k1="1.25"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         k4="0" />
+      <feBlend
+         id="feBlend5294-2"
+         in2="SourceGraphic"
+         result="result5"
+         mode="normal"
+         in="result2" />
+      <feComposite
+         id="feComposite5296-9"
+         in2="SourceGraphic"
+         in="result5"
+         operator="in"
+         result="result3" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -351,14 +396,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="289.95395"
-     inkscape:cy="274.85215"
+     inkscape:cx="277.43216"
+     inkscape:cy="274.85214"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1853"
+     inkscape:window-width="927"
      inkscape:window-height="1027"
-     inkscape:window-x="65"
+     inkscape:window-x="66"
      inkscape:window-y="24"
      inkscape:window-maximized="0"
      fit-margin-top="0"
@@ -381,7 +426,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-56.391148,-65.624859)">
+     transform="translate(-68.912933,-65.624859)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot3019"

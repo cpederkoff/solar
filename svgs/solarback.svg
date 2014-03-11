@@ -9,11 +9,11 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="289.29132"
-   height="204.54874"
+   width="269.29047"
+   height="184.54962"
    id="svg4168"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="solarback.svg">
   <defs
      id="defs4170" />
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="130.55328"
-     inkscape:cy="370.22892"
+     inkscape:cx="120.5499"
+     inkscape:cy="360.23399"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,7 +55,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-66.659856,-475.36784)">
+     transform="translate(-76.663236,-485.37202)">
     <g
        id="g7843"
        transform="matrix(0.44881887,0,0,0.44793382,42.255084,369.75892)">
