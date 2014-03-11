@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="step3.svg">
+   sodipodi:docname="step3before.svg">
   <defs
      id="defs4">
     <filter
@@ -107,6 +107,50 @@
          operator="in"
          result="result3" />
     </filter>
+    <filter
+       id="filter6148"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       inkscape:label="Film grain"
+       inkscape:menu="Image effects"
+       inkscape:menu-tooltip="Adds a small scale graininess"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6150"
+         type="fractalNoise"
+         numOctaves="3"
+         baseFrequency="1"
+         seed="0"
+         result="result0" />
+      <feColorMatrix
+         id="feColorMatrix6152"
+         result="result4"
+         values="0"
+         type="saturate" />
+      <feComposite
+         id="feComposite6154"
+         in2="result4"
+         in="SourceGraphic"
+         operator="arithmetic"
+         k1="1.25"
+         k2="0.5"
+         k3="0.5"
+         result="result2" />
+      <feBlend
+         id="feBlend6156"
+         in2="SourceGraphic"
+         result="result5"
+         mode="normal"
+         in="result2" />
+      <feComposite
+         id="feComposite6158"
+         in2="SourceGraphic"
+         in="result5"
+         operator="in"
+         result="result3" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -138,7 +182,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -148,13 +192,13 @@
      id="layer1"
      transform="translate(-79.859193,-418.26095)">
     <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter5199)"
-       id="rect4041-9-7-0"
-       width="24.243662"
-       height="256.57874"
-       x="-212.38258"
-       y="-520.53583"
-       transform="matrix(-1,0,0,-1,63.619305,171.80716)" />
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.98906618;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6148)"
+       id="rect4041-9-4"
+       width="20.270777"
+       height="300.19202"
+       x="-305.66214"
+       y="-643.8374"
+       transform="matrix(-1.0038071,0,0,-0.84681205,-30.620025,144.66672)" />
     <g
        transform="translate(13.195957,-57.111067)"
        id="layer1-8"

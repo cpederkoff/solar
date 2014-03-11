@@ -654,6 +654,96 @@
          in2="SourceGraphic"
          id="feComposite6097" />
     </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:menu-tooltip="Adds a small scale graininess"
+       inkscape:menu="Image effects"
+       inkscape:label="Film grain"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter11593-8">
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="3"
+         type="fractalNoise"
+         id="feTurbulence11595-2" />
+      <feColorMatrix
+         type="saturate"
+         values="0"
+         result="result4"
+         id="feColorMatrix11597-2" />
+      <feComposite
+         k4="0"
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.25"
+         operator="arithmetic"
+         in="SourceGraphic"
+         in2="result4"
+         id="feComposite11599-1" />
+      <feBlend
+         in="result2"
+         mode="normal"
+         result="result5"
+         in2="SourceGraphic"
+         id="feBlend11601-1" />
+      <feComposite
+         result="result3"
+         operator="in"
+         in="result5"
+         in2="SourceGraphic"
+         id="feComposite11603-5" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:menu-tooltip="Adds a small scale graininess"
+       inkscape:menu="Image effects"
+       inkscape:label="Film grain"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="filter11546-6">
+      <feTurbulence
+         result="result0"
+         seed="0"
+         baseFrequency="1"
+         numOctaves="3"
+         type="fractalNoise"
+         id="feTurbulence11548-9" />
+      <feColorMatrix
+         type="saturate"
+         values="0"
+         result="result4"
+         id="feColorMatrix11550-3" />
+      <feComposite
+         k4="0"
+         result="result2"
+         k3="0.5"
+         k2="0.5"
+         k1="1.25"
+         operator="arithmetic"
+         in="SourceGraphic"
+         in2="result4"
+         id="feComposite11552-3" />
+      <feBlend
+         in="result2"
+         mode="normal"
+         result="result5"
+         in2="SourceGraphic"
+         id="feBlend11554-3" />
+      <feComposite
+         result="result3"
+         operator="in"
+         in="result5"
+         in2="SourceGraphic"
+         id="feComposite11556-4" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -662,7 +752,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
+     inkscape:zoom="1.4"
      inkscape:cx="222.36888"
      inkscape:cy="106.18976"
      inkscape:document-units="px"
@@ -751,32 +841,131 @@
          id="tspan3033-1"
          x="549.69556"
          y="463.89835" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3019"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-51.345234,195.60483)"><flowRegion
+         id="flowRegion3021"><rect
+           id="rect3023"
+           width="124.24876"
+           height="44.446712"
+           x="145.46196"
+           y="231.10815" /></flowRegion><flowPara
+         id="flowPara3025">Poly</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="98.157341"
+       y="425.70282"
+       id="text3031"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3033"
+         x="98.157341"
+         y="425.70282" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3019-4"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-69.412071,68.116764)"><flowRegion
+         id="flowRegion3021-9"><rect
+           id="rect3023-6"
+           width="124.24876"
+           height="44.446712"
+           x="145.46196"
+           y="231.10815" /></flowRegion><flowPara
+         id="flowPara3025-2">Poly</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="80.090508"
+       y="298.21478"
+       id="text3031-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3033-6"
+         x="80.090508"
+         y="298.21478" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3019-9-7"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(230.25324,194.95792)"><flowRegion
+         id="flowRegion3021-2-4"><rect
+           id="rect3023-0-5"
+           width="124.24876"
+           height="44.446712"
+           x="145.46196"
+           y="231.10815" /></flowRegion><flowPara
+         id="flowPara3025-6-2">Poly</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="379.7558"
+       y="425.05597"
+       id="text3031-4-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3033-4-9"
+         x="379.7558"
+         y="425.05597" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5266-8"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(239.36038,248.41672)"><flowRegion
+         id="flowRegion5268-0"><rect
+           id="rect5270-2"
+           width="162.85715"
+           height="57.142857"
+           x="158.57143"
+           y="132.36218" /></flowRegion><flowPara
+         id="flowPara5272-7" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3019-1-7"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(407.83078,244.4786)"><flowRegion
+         id="flowRegion3021-7-6"><rect
+           id="rect3023-1-6"
+           width="124.24876"
+           height="44.446712"
+           x="145.46196"
+           y="231.10815" /></flowRegion><flowPara
+         id="flowPara3025-3-2">Poly</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="557.33337"
+       y="474.5766"
+       id="text3031-1-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3033-1-9"
+         x="557.33337"
+         y="474.5766" /></text>
     <rect
        style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:2.28532457;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985"
        width="302.43906"
        height="217.39972"
-       x="-826.6488"
-       y="-627.61871"
+       x="-834.28662"
+       y="-638.29694"
        transform="scale(-1,-1)" />
     <path
-       transform="matrix(0,1,-1,0,-42.441154,-38.286003)"
-       style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4.0999999;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter11593)"
+       transform="matrix(0,1,-1,0,-34.80334,-27.60776)"
+       style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4.0999999;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter11593-8)"
        d="m 472.36738,-869.08997 193.53734,0 0,302.43909 -217.39972,0 0,-278.15734"
        id="rect2985-6-5-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter11546)"
-       id="rect4041-9-677-3"
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter11546-6)"
+       id="rect4041-9-677-3-0"
        width="24.243662"
        height="256.57874"
        x="-776.94995"
        y="-570.43311"
-       transform="matrix(-0.99999995,0,0,-1.000001,-45.754318,96.404478)" />
+       transform="matrix(-0.84396954,0,0,-0.99074342,79.228027,132.03512)" />
     <g
        id="g12675"
-       transform="translate(-32.441154,-28.286003)">
+       transform="translate(-24.80334,-17.60776)">
       <g
          inkscape:label="Layer 1"
          id="layer1-0"
@@ -936,66 +1125,66 @@
       </g>
     </g>
     <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.87699693;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.80369592;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect4041-9-677"
-       width="24.366665"
-       height="196.34459"
-       x="-731.81952"
-       y="-603.83362"
+       width="20.456146"
+       height="196.41678"
+       x="-735.51019"
+       y="-614.54846"
        transform="scale(-1,-1)" />
     <flowRoot
        xml:space="preserve"
-       id="flowRoot3019"
+       id="flowRoot3019-3"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(-51.345234,195.60483)"><flowRegion
-         id="flowRegion3021"><rect
-           id="rect3023"
+       transform="translate(-43.70742,206.28307)"><flowRegion
+         id="flowRegion3021-4"><rect
+           id="rect3023-08"
            width="124.24876"
            height="44.446712"
            x="145.46196"
            y="231.10815" /></flowRegion><flowPara
-         id="flowPara3025">Poly</flowPara></flowRoot>    <text
+         id="flowPara3025-9">Poly</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="98.157341"
-       y="425.70282"
-       id="text3031"
+       x="105.79517"
+       y="436.3811"
+       id="text3031-2"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3033"
-         x="98.157341"
-         y="425.70282" /></text>
+         id="tspan3033-16"
+         x="105.79517"
+         y="436.3811" /></text>
     <flowRoot
        xml:space="preserve"
-       id="flowRoot3019-4"
+       id="flowRoot3019-4-0"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(-69.412071,68.116764)"><flowRegion
-         id="flowRegion3021-9"><rect
-           id="rect3023-6"
+       transform="translate(-61.77426,78.795)"><flowRegion
+         id="flowRegion3021-9-0"><rect
+           id="rect3023-6-9"
            width="124.24876"
            height="44.446712"
            x="145.46196"
            y="231.10815" /></flowRegion><flowPara
-         id="flowPara3025-2">Poly</flowPara></flowRoot>    <text
+         id="flowPara3025-2-6">Poly</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="80.090508"
-       y="298.21478"
-       id="text3031-3"
+       x="87.728333"
+       y="308.89304"
+       id="text3031-3-4"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3033-6"
-         x="80.090508"
-         y="298.21478" /></text>
+         id="tspan3033-6-4"
+         x="87.728333"
+         y="308.89304" /></text>
     <path
        style="fill:#d3cd91;fill-opacity:0.65753425;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 826.2974,509.07557 0,118.8312 -302.87769,0 0,-217.41076 202.38471,0"
+       d="m 833.9352,519.75381 0,118.8312 -302.87768,0 0,-217.41076 202.38471,0"
        id="rect2985-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:#ececec;fill-opacity:0.65753425;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 826.297,534.07608 0,93.31454 -302.43906,0 0,-217.39971 178.93346,0"
+       d="m 833.9348,544.75432 0,93.31454 -302.43905,0 0,-217.39971 178.93346,0"
        id="rect2985-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />

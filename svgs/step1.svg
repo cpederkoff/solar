@@ -9,11 +9,11 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="580.50043"
-   height="553.83759"
+   width="557.40924"
+   height="548.02698"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="step1.svg"
    inkscape:export-filename="/home/christian/apps/solar/images/step1.png"
    inkscape:export-xdpi="90"
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="-90.562521"
-     inkscape:cy="287.48894"
+     inkscape:cx="-100.55402"
+     inkscape:cy="277.4981"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -38,10 +38,10 @@
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     fit-margin-top="10"
-     fit-margin-left="10"
-     fit-margin-right="10"
-     fit-margin-bottom="10" />
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -58,23 +58,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-90.43708,-110.21875)">
-    <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4041"
-       width="24.243662"
-       height="256.57874"
-       x="481.12097"
-       y="-639.54584"
-       transform="matrix(0,1,-1,0,0,0)" />
-    <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4041-9"
-       width="24.243662"
-       height="256.57874"
-       x="501.20215"
-       y="-660.43414"
-       transform="matrix(0,1,-1,0,0,0)" />
+     transform="translate(-100.42858,-106.03856)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot3019"
@@ -97,29 +81,29 @@
          x="149.50258"
          y="230.09801" /></text>
     <rect
-       style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2.28532481;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2.39376426;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985-0"
-       width="217.39972"
-       height="302.43909"
-       x="373.35699"
-       y="121.8651" />
+       width="227.9212"
+       height="316.50388"
+       x="393.41119"
+       y="107.74609" />
     <rect
-       style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2.28532481;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect2985-6-5"
-       width="217.39972"
-       height="302.43909"
-       x="393.78555"
-       y="141.43652" />
+       style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2.39376426;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2985-0-8"
+       width="227.9212"
+       height="316.50388"
+       x="415.41061"
+       y="132.04285" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="461.63971"
+       x="481.63971"
        y="297.97104"
        id="text3035"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3037"
-         x="461.63971"
+         x="481.63971"
          y="297.97104">EVA</tspan></text>
     <g
        transform="translate(100.00108,-19.93847)"
@@ -327,20 +311,20 @@
       </g>
     </g>
     <rect
-       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:2.28532457;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:2.39376402;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985"
-       width="302.43906"
-       height="217.39972"
-       x="121.35448"
-       y="-331.18939"
+       width="316.50388"
+       height="227.9212"
+       x="107.23544"
+       y="-341.76511"
        transform="matrix(0,1,-1,0,0,0)" />
     <rect
-       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:2.28532457;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:2.39376402;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985-1"
-       width="302.43906"
-       height="217.39972"
-       x="141.42461"
-       y="-351.33246"
+       width="316.50388"
+       height="227.9212"
+       x="129.73828"
+       y="-366.36218"
        transform="matrix(0,1,-1,0,0,0)" />
     <text
        xml:space="preserve"
@@ -353,5 +337,21 @@
          x="166.06819"
          y="289.62381"
          id="tspan3034">Polycarb</tspan></text>
+    <rect
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.91189325;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4041-9-4"
+       width="20.34795"
+       height="254.20622"
+       x="529.87726"
+       y="-646.04688"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.91189325;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4041-9-4-4"
+       width="20.34795"
+       height="254.20622"
+       x="540.91284"
+       y="-657.3819"
+       transform="matrix(0,1,-1,0,0,0)" />
   </g>
 </svg>

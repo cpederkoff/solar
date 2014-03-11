@@ -13,7 +13,7 @@
    height="363.51797"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="step3.svg">
   <defs
      id="defs4">
@@ -107,6 +107,50 @@
          operator="in"
          result="result3" />
     </filter>
+    <filter
+       id="filter5591"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       inkscape:label="Film grain"
+       inkscape:menu="Image effects"
+       inkscape:menu-tooltip="Adds a small scale graininess"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence5593"
+         type="fractalNoise"
+         numOctaves="3"
+         baseFrequency="1"
+         seed="0"
+         result="result0" />
+      <feColorMatrix
+         id="feColorMatrix5595"
+         result="result4"
+         values="0"
+         type="saturate" />
+      <feComposite
+         id="feComposite5597"
+         in2="result4"
+         in="SourceGraphic"
+         operator="arithmetic"
+         k1="1.25"
+         k2="0.5"
+         k3="0.5"
+         result="result2" />
+      <feBlend
+         id="feBlend5599"
+         in2="SourceGraphic"
+         result="result5"
+         mode="normal"
+         in="result2" />
+      <feComposite
+         id="feComposite5601"
+         in2="SourceGraphic"
+         in="result5"
+         operator="in"
+         result="result3" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -129,7 +173,14 @@
      fit-margin-top="10"
      fit-margin-left="10"
      fit-margin-right="10"
-     fit-margin-bottom="10" />
+     fit-margin-bottom="10"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="-15.657364,393.45441"
+       id="guide8889" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -148,13 +199,13 @@
      id="layer1"
      transform="translate(-79.859193,-339.32501)">
     <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter5199)"
-       id="rect4041-9-7-0"
-       width="24.243662"
-       height="256.57874"
-       x="-212.38258"
-       y="-520.53583"
-       transform="matrix(-1,0,0,-1,63.619305,171.80716)" />
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.98906618;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter5591)"
+       id="rect4041-9-4-4"
+       width="20.270777"
+       height="300.19202"
+       x="-191.51492"
+       y="-644.8476"
+       transform="matrix(-1.0038071,0,0,-0.84681205,81.814545,144.82147)" />
     <g
        transform="translate(13.195957,-57.111067)"
        id="layer1-8"
@@ -185,14 +236,6 @@
            y="505.32214" />
       </g>
     </g>
-    <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4041-9-7"
-       width="24.243662"
-       height="256.57874"
-       x="-276.44754"
-       y="-606.40375"
-       transform="scale(-1,-1)" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot3019"
@@ -215,5 +258,13 @@
          id="tspan3033"
          x="-571.34967"
          y="363.68536" /></text>
+    <rect
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.91189325;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4041-9-4"
+       width="20.34795"
+       height="254.20622"
+       x="-274.28445"
+       y="-607.8963"
+       transform="scale(-1,-1)" />
   </g>
 </svg>

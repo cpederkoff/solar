@@ -9,11 +9,11 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="324.7244"
-   height="321.73907"
+   width="318.89777"
+   height="336.4039"
    id="svg5270"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="step4.svg">
   <defs
      id="defs5272">
@@ -519,6 +519,96 @@
          operator="in"
          result="result3" />
     </filter>
+    <filter
+       id="filter11546-0"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       inkscape:label="Film grain"
+       inkscape:menu="Image effects"
+       inkscape:menu-tooltip="Adds a small scale graininess"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence11548-8"
+         type="fractalNoise"
+         numOctaves="3"
+         baseFrequency="1"
+         seed="0"
+         result="result0" />
+      <feColorMatrix
+         id="feColorMatrix11550-7"
+         result="result4"
+         values="0"
+         type="saturate" />
+      <feComposite
+         id="feComposite11552-3"
+         in2="result4"
+         in="SourceGraphic"
+         operator="arithmetic"
+         k1="1.25"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         k4="0" />
+      <feBlend
+         id="feBlend11554-1"
+         in2="SourceGraphic"
+         result="result5"
+         mode="normal"
+         in="result2" />
+      <feComposite
+         id="feComposite11556-2"
+         in2="SourceGraphic"
+         in="result5"
+         operator="in"
+         result="result3" />
+    </filter>
+    <filter
+       id="filter7581"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       inkscape:label="Film grain"
+       inkscape:menu="Image effects"
+       inkscape:menu-tooltip="Adds a small scale graininess"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence7583"
+         type="fractalNoise"
+         numOctaves="3"
+         baseFrequency="1"
+         seed="0"
+         result="result0" />
+      <feColorMatrix
+         id="feColorMatrix7585"
+         result="result4"
+         values="0"
+         type="saturate" />
+      <feComposite
+         id="feComposite7587"
+         in2="result4"
+         in="SourceGraphic"
+         operator="arithmetic"
+         k1="1.25"
+         k2="0.5"
+         k3="0.5"
+         result="result2"
+         k4="0" />
+      <feBlend
+         id="feBlend7589"
+         in2="SourceGraphic"
+         result="result5"
+         mode="normal"
+         in="result2" />
+      <feComposite
+         id="feComposite7591"
+         in2="SourceGraphic"
+         in="result5"
+         operator="in"
+         result="result3" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -528,8 +618,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="-52.291861"
-     inkscape:cy="270.80781"
+     inkscape:cx="223.42245"
+     inkscape:cy="222.54121"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -538,10 +628,12 @@
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     fit-margin-top="10"
-     fit-margin-left="10"
-     fit-margin-right="10"
-     fit-margin-bottom="10" />
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata5275">
     <rdf:RDF>
@@ -550,7 +642,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="" />
       </cc:Work>
@@ -560,7 +652,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-545.50825,-410.55517)">
+     transform="translate(-555.50823,-376.19519)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot3019-9"
@@ -617,37 +709,31 @@
          x="582.13672"
          y="492.18436" /></text>
     <rect
-       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:2.28532457;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:2.39376402;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect2985"
-       width="302.43906"
-       height="217.39972"
-       x="-859.08997"
-       y="-655.90472"
+       width="316.50388"
+       height="227.9212"
+       x="-873.20898"
+       y="-655.85046"
        transform="scale(-1,-1)" />
-    <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1.03797519;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6099)"
-       id="rect4041-9-67"
-       width="24.381788"
-       height="16.5404"
-       x="730.52136"
-       y="421.07416" />
     <path
-       transform="matrix(0,1,-1,0,-10,-10)"
+       transform="matrix(0,1.0483985,-1.0465056,0,-36.298243,-42.282984)"
        style="fill:#eae7ca;fill-opacity:1;stroke:#000000;stroke-width:2.28500009;stroke-miterlimit:4.0999999;stroke-opacity:1;filter:url(#filter11593)"
        d="m 472.36738,-869.08997 193.53734,0 0,302.43909 -217.39972,0 0,-278.15734"
        id="rect2985-6-5-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter11546)"
-       id="rect4041-9-677-3"
-       width="24.243662"
-       height="256.57874"
-       x="-776.94995"
-       y="-570.43311"
-       transform="matrix(-1,0,0,-1,-13.31318,151.36113)" />
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.98906618;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter7581)"
+       id="rect4041-9-4-4-0"
+       width="20.270777"
+       height="300.19202"
+       x="-764.92932"
+       y="-718.10455"
+       transform="matrix(-1.0038071,0,0,-0.84681205,1.126422,104.04355)" />
     <g
-       id="g12675">
+       id="g12675"
+       transform="translate(6,-4)">
       <g
          inkscape:label="Layer 1"
          id="layer1-0"
@@ -806,22 +892,6 @@
         </g>
       </g>
     </g>
-    <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.87699693;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4041-9-677"
-       width="24.366665"
-       height="196.34459"
-       x="-764.26068"
-       y="-632.11963"
-       transform="scale(-1,-1)" />
-    <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:1.0456593;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect4041-9-6"
-       width="24.047329"
-       height="15.898051"
-       x="466.56561"
-       y="497.612"
-       transform="matrix(1,0,0.53184775,0.84683999,0,0)" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot3019"
@@ -845,34 +915,12 @@
          x="130.5985"
          y="453.98883" /></text>
     <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect12708"
-       width="6.875"
-       height="9.0178576"
-       x="399.03568"
-       y="756.04486"
-       transform="matrix(0.84926114,-0.52797302,0.52797302,0.84926114,0,0)" />
-    <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect12724"
-       width="21.25"
-       height="9.0178576"
-       x="740.32965"
-       y="432.3688" />
-    <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect12708-8"
-       width="6.875"
-       height="9.0178576"
-       x="411.66525"
-       y="764.57941"
-       transform="matrix(0.84926114,-0.52797302,0.52797302,0.84926114,0,0)" />
-    <rect
-       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect12746"
-       width="5.4910712"
-       height="6.1160712"
-       x="758.3208"
-       y="436.03839" />
+       style="fill:#d6b5ad;fill-opacity:1;stroke:#000000;stroke-width:0.91189325;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4041-9-4-4"
+       width="20.34795"
+       height="254.20622"
+       x="-769.25366"
+       y="-630.85736"
+       transform="scale(-1,-1)" />
   </g>
 </svg>
