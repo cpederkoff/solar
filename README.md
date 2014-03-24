@@ -14,7 +14,7 @@ The original motive for the project stems from the fact that existing 5W solar c
 Features of this design
 ---------
  - No soldering required (uses foil tape with conductive adhesive instead of pre-tinned bus bar) 
- - Very portable (4"x4"x1") when folded. 
+ - Very portable (3.5"x2.5"x1") when folded. 
  - The only tooling required is an office laminator and some cutting equipment
  - Modular-ish design means more cells can be added if projects call for more than 5V. This causes a small increase in thickness.
 
