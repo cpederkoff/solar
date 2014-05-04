@@ -2,6 +2,12 @@ A plan for low-cost solar cell encapsulation
 =====
 This github repository contains all the plans and resources needed to create your own solar panels. 
 
+Instructables Guides
+---------
+[See here for this project's instructables guide](http://www.instructables.com/id/EAO4HD3HCV981HZ/)
+
+[See here for making a converter so the panels can charge USB devices](http://www.instructables.com/id/E12ICLTHU5WZT3Y/)
+
 What is it
 ---------
 This project is an open source, low cost, solar cell encapsulation plan and bill of materials to enable members of the open hardware community to build solar panels and integrate them into projects. 
